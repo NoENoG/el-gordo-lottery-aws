@@ -1,0 +1,173 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #fdfbf7 0%, #faeec7 100%);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+}
+
+.main-container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(170, 25, 45, 0.2);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    border-top: 8px solid #aa192d;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0 5px 0;
+    color: #aa192d;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    color: #d4af37;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.holly-decoration {
+    font-size: 2rem;
+}
+
+#countdown-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.time-box {
+    background: #2c3e50;
+    color: #d4af37;
+    flex: 1;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.time-box span:first-child {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.time-box .label {
+    font-size: 0.7rem;
+    color: #ccc;
+    margin-top: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+}
+
+input:focus {
+    border-color: #d4af37;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to right, #aa192d, #8a1223);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(170, 25, 45, 0.4);
+}
+
+/* WhatsApp Share Button Style */
+.share-btn {
+    background: #25D366; 
+    font-size: 0.9rem;
+    padding: 10px;
+}
+
+.results-container {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    min-height: 60px;
+}
+
+/* Prize Table Styles */
+.prize-info {
+    margin-top: 30px;
+    text-align: left;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+}
+
+.prize-info h3 {
+    color: #aa192d;
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.1rem;
+}
+
+.prize-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.prize-info li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.prize-info li:last-child {
+    border-bottom: none;
+}
+
+.prize-info .amount {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #2c3e50;
+}
+
+.tech-stack {
+    font-size: 0.75rem; 
+    opacity: 0.7;
+    margin-top: 5px;
+}

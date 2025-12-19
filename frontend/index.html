@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Gordo 2025 | Official Checker</title>
+    
+    <meta property="og:title" content="El Gordo 2025 Checker 🎄">
+    <meta property="og:description" content="Check your lottery tickets instantly using the official real-time API.">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <div class="holly-decoration">🎄</div>
+            <h1>El Gordo 2025</h1>
+            <p class="subtitle">Official Lottery Checker</p>
+        </header>
+
+        <div id="countdown-wrapper">
+            <div class="time-box">
+                <span id="days">00</span>
+                <span class="label">DAYS</span>
+            </div>
+            <div class="time-box">
+                <span id="hours">00</span>
+                <span class="label">HRS</span>
+            </div>
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <span class="label">MIN</span>
+            </div>
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <span class="label">SEC</span>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <input
+             type="text" 
+             id="ticketInput" 
+             placeholder="12345" 
+             maxlength="5" 
+             inputmode="numeric" 
+             pattern="[0-9]*"
+             autocomplete="off"
+             >
+            <button onclick="checkLottery()">CHECK TICKET 🎟️</button>
+            
+            <button onclick="shareApp()" class="share-btn">Share Luck on WhatsApp 🍀</button>
+        </div>
+
+        <div class="results-container">
+            <p>Enter your 5-digit number to check for prizes.</p>
+        </div>
+
+        <div class="prize-info">
+            <h3>🏆 Prize Breakdown</h3>
+            <ul>
+                <li>
+                    <span>El Gordo (1st)</span>
+                    <span class="amount">400.000€</span>
+                </li>
+                <li>
+                    <span>Second Prize</span>
+                    <span class="amount">125.000€</span>
+                </li>
+                <li>
+                    <span>Third Prize</span>
+                    <span class="amount">50.000€</span>
+                </li>
+                <li>
+                    <span>Pedrea (Stones)</span>
+                    <span class="amount">1.000€</span>
+                </li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Built by <strong>Mohamed Aly</strong> 🇪🇸</p>
+            <p class="tech-stack">Running on AWS Serverless Architecture ☁️</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

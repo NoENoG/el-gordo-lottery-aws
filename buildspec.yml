@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "Filtering only frontend files..."
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: frontend
