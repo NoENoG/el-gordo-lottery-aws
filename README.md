@@ -35,3 +35,7 @@ I used this project to apply the concepts I'm learning in class and through my o
 
 ---
 *Built with 🎄 spirit by **Mohamed Aly** in Barcelona.*
+
+> **Status: Archived (Dec 2025)**
+> This project is no longer maintained. For the updated Serverless implementation, see: [el-nino-lottery](https://github.com/NoENoG/el-nino-lottery).
+---
