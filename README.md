@@ -3,7 +3,7 @@
 **A serverless, ad-free, real-time lottery tracker built on AWS.**
 
 
-![App Screenshot](.docs/screenshot.png)
+![App Screenshot](./docs/screenshot.png)
 
 ---
 
