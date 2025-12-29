@@ -2,9 +2,8 @@
 
 **A serverless, ad-free, real-time lottery tracker built on AWS.**
 
-**🔗 Live Link:** [bit.ly/elgordo-lottery](https://bit.ly/elgordo-lottery)
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](.docs/screenshot.png)
 
 ---
 
